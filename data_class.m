@@ -9,7 +9,7 @@ function [cgroup] = data_class(group,class,v)
 %% Output
 %  (1) cgroup: Data Classification ID 
 %% Example
-%  cgroup = data_class([1:100],'window',[10 2]);
+%  cgroup = data_class([1:100],'window',[10 2]); % behavior-identified sliding windows
 %% -------------------------------------------------------------------------------------------------------------------------------
 % - Z.K.X. 2021/06/04 (MATLAB R2018a)
 %% -------------------------------------------------------------------------------------------------------------------------------
